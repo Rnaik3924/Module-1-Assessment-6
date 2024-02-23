@@ -12,10 +12,11 @@ h2{
 
 h4{
     front-family: Impact, fantasy;
-   font-size: 20px;
+    font-size: 30px;
     font-style: italic
     color: cornflowerblue;
 } 
+    
     
 p}
   front-family: Helvetica, san-serif;
@@ -31,7 +32,7 @@ p}
 #menu a{
       color: #fed000;
       font-family: Helvetica; sans-serif;
-      font-size: 18px;
+      font-size: 19px;
       text-decoration: none;
       font-weight: 800;
       padding-left: 20px;
@@ -41,3 +42,20 @@ p}
     #menu a:hover{
           color: #5077bd;
     }
+
+table{
+     font-family: Helvetica, sans-serif;
+     border-collapse: collapse;
+     border-width: 1px;
+     border-style: solid;
+     border-color: cornflowerblue;
+}
+th{
+   font-weight: 800;
+    background-color: cornflowerblue;
+    color: #fed000;
+}
+
+tr.alt td{
+    background-color: #9AEFFC;
+}
